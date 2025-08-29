@@ -1,0 +1,271 @@
+flowchart TD
+    A[Landing Page] --> B{Usuário Novo?}
+    B -->|Sim| C[Escolha do Tipo de Conta]
+    B -->|Não| D[Login]
+    
+    C --> E{Tipo de Usuário}
+    E -->|Empreendedor| F[Cadastro Empreendedor]
+    E -->|Consultor| G[Cadastro Consultor]
+    
+    F --> H[Onboarding Empreendedor]
+    G --> I[Onboarding Consultor]
+    
+    D --> J{Login Válido?}
+    J -->|Não| K[Erro - Tentar Novamente]
+    J -->|Sim| L{Primeiro Login?}
+    K --> D
+    
+    L -->|Sim| M{Tipo de Usuário}
+    L -->|Não| N[Dashboard Principal]
+    
+    M -->|Empreendedor| H
+    M -->|Consultor| I
+    
+    H --> O[Tutorial Interativo Empreendedor]
+    I --> P[Tutorial Interativo Consultor]
+    
+    O --> Q[Dashboard Empreendedor]
+    P --> R[Dashboard Consultor]
+    
+    N --> S{Tipo de Usuário Logado}
+    S -->|Empreendedor| Q
+    S -->|Consultor| R
+    
+    %% FLUXO EMPREENDEDOR
+    Q --> T[Menu Principal Empreendedor]
+    T --> U{Ação Escolhida}
+    
+    U -->|Buscar Consultores| V[Página de Busca]
+    U -->|Meus Projetos| W[Lista de Projetos]
+    U -->|Mensagens| X[Centro de Mensagens]
+    U -->|Criar Projeto| Y[Formulário Novo Projeto]
+    U -->|Perfil| Z[Editar Perfil]
+    
+    V --> AA[Filtros e Busca]
+    AA --> BB[Lista de Consultores]
+    BB --> CC{Ação no Consultor}
+    CC -->|Ver Perfil| DD[Perfil Detalhado do Consultor]
+    CC -->|Favoritar| EE[Adicionar aos Favoritos]
+    CC -->|Enviar Mensagem| FF[Modal de Mensagem]
+    
+    DD --> GG{Ação no Perfil}
+    GG -->|Contratar Diretamente| HH[Formulário de Contratação Rápida]
+    GG -->|Enviar Proposta| II[Formulário de Proposta]
+    GG -->|Ver Portfolio| JJ[Galeria de Cases]
+    GG -->|Agendar Reunião| KK[Calendário de Agendamento]
+    
+    Y --> LL[Preencher Detalhes do Projeto]
+    LL --> MM[Upload de Arquivos]
+    MM --> NN[Definir Orçamento e Prazo]
+    NN --> OO[Preview e Publicação]
+    OO --> PP{Publicar?}
+    PP -->|Sim| QQ[Projeto Publicado]
+    PP -->|Não| LL
+    
+    QQ --> RR[Aguardar Propostas]
+    RR --> SS[Notificação de Nova Proposta]
+    SS --> TT[Avaliar Propostas]
+    
+    W --> UU{Status do Projeto}
+    UU -->|Rascunho| VV[Editar Projeto]
+    UU -->|Publicado| WW[Ver Propostas Recebidas]
+    UU -->|Em Andamento| XX[Acompanhar Progresso]
+    UU -->|Concluído| YY[Avaliar Consultor]
+    
+    %% FLUXO CONSULTOR
+    R --> ZZ[Menu Principal Consultor]
+    ZZ --> AAA{Ação Escolhida}
+    
+    AAA -->|Buscar Projetos| BBB[Página de Oportunidades]
+    AAA -->|Minhas Propostas| CCC[Lista de Propostas]
+    AAA -->|Meus Projetos| DDD[Projetos Ativos]
+    AAA -->|Mensagens| X
+    AAA -->|Perfil| EEE[Editar Perfil Consultor]
+    AAA -->|Portfolio| FFF[Gerenciar Portfolio]
+    
+    BBB --> GGG[Filtros por Área/Orçamento]
+    GGG --> HHH[Lista de Projetos Disponíveis]
+    HHH --> III{Ação no Projeto}
+    III -->|Ver Detalhes| JJJ[Página do Projeto]
+    III -->|Favoritar| KKK[Adicionar aos Favoritos]
+    III -->|Enviar Proposta| LLL[Formulário de Proposta]
+    
+    JJJ --> MMM{Interesse no Projeto?}
+    MMM -->|Sim| LLL
+    MMM -->|Talvez| NNN[Salvar para Depois]
+    MMM -->|Não| BBB
+    
+    LLL --> OOO[Definir Preço e Prazo]
+    OOO --> PPP[Escrever Proposta Personalizada]
+    PPP --> QQQ[Anexar Documentos/Cases]
+    QQQ --> RRR[Enviar Proposta]
+    RRR --> SSS[Proposta Enviada - Aguardar]
+    
+    %% FLUXO COMUM - COMUNICAÇÃO
+    X --> TTT[Lista de Conversas]
+    TTT --> UUU{Selecionar Conversa}
+    UUU -->|Nova| VVV[Iniciar Nova Conversa]
+    UUU -->|Existente| WWW[Thread de Mensagens]
+    
+    WWW --> XXX[Visualizar Histórico]
+    XXX --> YYY[Enviar Nova Mensagem]
+    YYY --> ZZZ[Anexar Arquivos?]
+    ZZZ -->|Sim| AAAA[Upload de Arquivos]
+    ZZZ -->|Não| BBBB[Enviar Mensagem]
+    AAAA --> BBBB
+    
+    %% FLUXO DE CONTRATAÇÃO
+    HH --> CCCC[Revisar Termos]
+    II --> CCCC
+    RRR --> DDDD[Empreendedor Recebe Notificação]
+    DDDD --> EEEE[Avaliar Proposta]
+    EEEE --> FFFF{Decisão}
+    FFFF -->|Aceitar| GGGG[Aceitar Proposta]
+    FFFF -->|Recusar| HHHH[Recusar Proposta]
+    FFFF -->|Contra-propor| IIII[Nova Contra-proposta]
+    
+    GGGG --> CCCC
+    CCCC --> JJJJ[Configurar Pagamento]
+    JJJJ --> KKKK{Método de Pagamento}
+    KKKK -->|Cartão| LLLL[Processar Cartão]
+    KKKK -->|PIX| MMMM[Gerar QR Code PIX]
+    KKKK -->|Boleto| NNNN[Gerar Boleto]
+    
+    LLLL --> OOOO[Confirmação de Pagamento]
+    MMMM --> OOOO
+    NNNN --> OOOO
+    
+    OOOO --> PPPP[Projeto Iniciado]
+    PPPP --> QQQQ[Dashboard do Projeto]
+    
+    %% FLUXO DO PROJETO EM ANDAMENTO
+    QQQQ --> RRRR{Usuário no Projeto}
+    RRRR -->|Empreendedor| SSSS[Acompanhar Progresso]
+    RRRR -->|Consultor| TTTT[Gerenciar Entregáveis]
+    
+    SSSS --> UUUU[Ver Milestones]
+    SSSS --> VVVV[Chat do Projeto]
+    SSSS --> WWWW[Aprovar Entregas]
+    
+    TTTT --> XXXX[Upload de Entregáveis]
+    TTTT --> VVVV
+    TTTT --> YYYY[Marcar Milestone Completo]
+    
+    WWWW --> ZZZZ{Aprovar?}
+    ZZZZ -->|Sim| AAAAA[Liberar Pagamento]
+    ZZZZ -->|Não| BBBBB[Solicitar Revisão]
+    
+    YYYY --> CCCCC[Notificar Empreendedor]
+    CCCCC --> WWWW
+    
+    AAAAA --> DDDDD{Projeto Concluído?}
+    DDDDD -->|Não| QQQQ
+    DDDDD -->|Sim| EEEEE[Finalizar Projeto]
+    
+    EEEEE --> FFFFF[Sistema de Avaliação]
+    FFFFF --> GGGGG[Empreendedor Avalia Consultor]
+    GGGGG --> HHHHH[Consultor Avalia Empreendedor]
+    HHHHH --> IIIII[Projeto Arquivado]
+    
+    %% FLUXOS SECUNDÁRIOS
+    EEE --> JJJJJ[Gerenciar Especialidades]
+    EEE --> KKKKK[Definir Preços]
+    EEE --> LLLLL[Configurar Disponibilidade]
+    EEE --> MMMMM[Upload Certificados]
+    
+    FFF --> NNNNN[Adicionar Novo Case]
+    FFF --> OOOOO[Editar Cases Existentes]
+    FFF --> PPPPP[Organizar Portfolio]
+    
+    Z --> QQQQQ[Dados da Empresa]
+    Z --> RRRRR[Áreas de Interesse]
+    Z --> SSSSS[Orçamento Preferencial]
+    
+    %% NOTIFICAÇÕES E ALERTS
+    SS --> TTTTT[Centro de Notificações]
+    DDDD --> TTTTT
+    CCCCC --> TTTTT
+    
+    TTTTT --> UUUUU{Tipo de Notificação}
+    UUUUU -->|Nova Proposta| VVVVV[Ir para Propostas]
+    UUUUU -->|Nova Mensagem| X
+    UUUUU -->|Pagamento| WWWWW[Ver Transações]
+    UUUUU -->|Sistema| XXXXX[Ler Comunicado]
+    
+    %% CONFIGURAÇÕES E HELP
+    T --> YYYYY[Configurações]
+    ZZ --> YYYYY
+    
+    YYYYY --> ZZZZZ{Tipo de Configuração}
+    ZZZZZ -->|Conta| AAAAAA[Dados Pessoais]
+    ZZZZZ -->|Privacidade| BBBBBB[Configurações de Privacidade]
+    ZZZZZ -->|Notificações| CCCCCC[Preferências de Notificação]
+    ZZZZZ -->|Pagamento| DDDDDD[Métodos de Pagamento]
+    ZZZZZ -->|Plano| EEEEEE[Upgrade/Downgrade]
+    
+    T --> FFFFFF[Central de Ajuda]
+    ZZ --> FFFFFF
+    
+    FFFFFF --> GGGGGG{Tipo de Ajuda}
+    GGGGGG -->|FAQ| HHHHHH[Perguntas Frequentes]
+    GGGGGG -->|Tutorial| IIIIII[Guias Passo a Passo]
+    GGGGGG -->|Suporte| JJJJJJ[Chat com Suporte]
+    GGGGGG -->|Comunidade| KKKKKK[Fórum da Comunidade]
+    
+    %% COMUNIDADE E EVENTOS
+    KKKKKK --> LLLLLL[Lista de Categorias]
+    LLLLLL --> MMMMMM[Posts da Categoria]
+    MMMMMM --> NNNNNN[Ler Post]
+    NNNNNN --> OOOOOO[Comentar/Curtir]
+    
+    T --> PPPPPP[Eventos]
+    ZZ --> PPPPPP
+    
+    PPPPPP --> QQQQQQ[Lista de Eventos]
+    QQQQQQ --> RRRRRR{Tipo de Evento}
+    RRRRRR -->|Gratuito| SSSSSS[Inscrever-se Grátis]
+    RRRRRR -->|Pago| TTTTTT[Página de Pagamento]
+    
+    TTTTTT --> UUUUUU[Processar Pagamento Evento]
+    UUUUUU --> VVVVVV[Confirmação Inscrição]
+    SSSSSS --> VVVVVV
+    
+    %% SISTEMA DE BUSCA INTELIGENTE
+    V --> WWWWWW[Busca com IA]
+    BBB --> WWWWWW
+    
+    WWWWWW --> XXXXXX[Sugestões Automáticas]
+    XXXXXX --> YYYYYY[Filtros Inteligentes]
+    YYYYYY --> ZZZZZZ[Resultados Personalizados]
+    
+    %% ONBOARDING DETALHADO
+    H --> H1[Bem-vindo]
+    H1 --> H2[Verificar Email]
+    H2 --> H3[Completar Perfil da Empresa]
+    H3 --> H4[Definir Necessidades]
+    H4 --> H5[Tour pela Plataforma]
+    H5 --> H6[Primeiro Projeto ou Busca]
+    H6 --> Q
+    
+    I --> I1[Bem-vindo]
+    I1 --> I2[Verificar Email]
+    I2 --> I3[Completar Perfil Profissional]
+    I3 --> I4[Upload de Certificados]
+    I4 --> I5[Criar Portfolio]
+    I5 --> I6[Definir Preços]
+    I6 --> I7[Tour pela Plataforma]
+    I7 --> I8[Primeira Busca por Projetos]
+    I8 --> R
+    
+    %% SISTEMA DE MATCHING
+    QQ --> MATCH1[Sistema de Matching IA]
+    MATCH1 --> MATCH2[Analisar Perfil do Projeto]
+    MATCH2 --> MATCH3[Buscar Consultores Compatíveis]
+    MATCH3 --> MATCH4[Enviar Sugestões por Email]
+    MATCH4 --> MATCH5[Notificar na Plataforma]
+    
+    style A fill:#e1f5fe
+    style Q fill:#c8e6c9
+    style R fill:#fff3e0
+    style OOOO fill:#f3e5f5
+    style EEEEE fill:#e8f5e8

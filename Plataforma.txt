@@ -1,0 +1,97 @@
+
+🧭 Projeto: Plataforma de Organização Financeira com Inteligência Humana + Artificial
+1. Propósito da Plataforma
+Missão:
+Ajudar todas as pessoas que não têm controle financeiro a se organizarem, conquistarem estabilidade e alcançarem a liberdade financeira.
+
+Visão:
+Ser a principal plataforma brasileira de educação financeira prática, combinando inteligência artificial com o acolhimento humano.
+
+Diferencial:
+Enquanto outras plataformas são frias e automatizadas, a nossa une tecnologia e atendimento humano real. O usuário será orientado por um sistema inteligente e, ao mesmo tempo, terá acesso a humanos treinados para oferecer apoio emocional, técnico e estratégico na jornada financeira.
+
+2. Funcionalidades Principais (MVP)
+📊 Organização Financeira
+Registro de entradas e saídas (manualmente ou via conexão bancária)
+
+Análise automática de extratos (classificação de gastos)
+
+Alertas de gastos fora do planejado
+
+Painel com gráficos e insights
+
+📅 Planejamento
+Planejamento financeiro mensal
+
+Definição de metas financeiras
+
+Simulador de sonhos (ex: quanto guardar para viajar, comprar algo, etc.)
+
+📈 Investimentos Básicos
+Simulador de investimentos (Tesouro Direto, CDB, ações simples)
+
+Conteúdo introdutório sobre investimentos com linguagem simples
+
+👥 Apoio Humano
+Canal direto com consultores financeiros treinados
+
+Sessões pontuais com humanos para revisão de finanças (via chat, voz ou vídeo)
+
+3. Formato da Plataforma
+Fase 1 (Início): Website responsivo com painel financeiro
+
+Fase 2: Evolução para aplicativo (iOS e Android)
+
+Fase 3: Integração com contas bancárias via Open Finance
+
+4. Tecnologia e Equipe
+Você atuará como especialista de conteúdo financeiro e idealizador.
+
+Procurar 1 ou 2 desenvolvedores com experiência em:
+
+WebApps (React, Node.js ou uso de Bubble)
+
+Integração com Open Finance (ex: Pluggy, Belvo ou TecBan)
+
+Designer UX/UI para identidade e experiência visual
+
+5. Monetização
+Plano gratuito com funcionalidades básicas
+
+Planos pagos (R$ 9,90 ~ R$ 29,90/mês) com:
+
+Mais funcionalidades (ex: múltiplas metas, relatórios avançados)
+
+Acesso a humanos e mentorias
+
+Cursos financeiros avulsos (R$ 19 ~ R$ 99)
+
+Parcerias com corretoras, bancos e marcas que se alinhem ao propósito
+
+6. Nome e Identidade Visual
+Vamos encontrar juntos um nome forte e com domínio disponível. Aqui vão algumas ideias inspiradas no seu propósito:
+
+Nome	Significado	Domínio Disponível
+Bolso Vivo	Um bolso que tem vida, inteligência e apoio	bolsovivo.com.br ✅
+Controle Real	Organização prática com resultados reais	controlereal.com.br ✅
+Vida Financeira	Direto e simples	vidafinanceira.com.br ✅
+Meu Plano	Remete a algo pessoal e personalizado	meuplano.app ✅
+Orça+	Nome moderno e de impacto	orcaplus.com ✅
+
+Quer que eu verifique domínios disponíveis para outras ideias também?
+
+7. Lançamento (Go-To-Market)
+Etapas:
+Criação do site piloto (sem app ainda)
+
+Testes com um grupo pequeno (família, amigos e conhecidos)
+
+Coleta de feedback
+
+Melhoria da plataforma com base nas sugestões
+
+Abertura para o público geral + campanha nas redes sociais
+
+
+
+

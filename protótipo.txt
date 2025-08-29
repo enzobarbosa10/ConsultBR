@@ -1,0 +1,13 @@
+O que este protótipo demonstra:
+
+Estilo Minimalista Profundo: O fundo em Azul Petróleo com o texto em Off-white cria a base escura e sofisticada.
+
+Tipografia Correta: Inter é usada para o título principal e Open Sans para o subtítulo e o link de login, demonstrando a hierarquia e legibilidade.
+
+Paleta de Cores: O Verde-Esmeralda é aplicado de forma estratégica no botão "Comece Agora", conferindo destaque e simbolizando o crescimento.
+
+Movimento e Fluxo (Conceitual): As linhas finas e semi-transparentes se movem suavemente no fundo, com um gradiente que inclui o Verde-Esmeralda, simulando a ideia de "linhas que se movem e se cruzam" e o fluxo de dados/progresso. Elas são sutis e não distraem do conteúdo principal.
+
+Clareza e Foco: O conteúdo principal está centralizado e envolto em um painel semi-transparente com backdrop-filter: blur, o que ajuda a destacá-lo do fundo animado, mantendo a clareza.
+
+Responsividade: O layout é adaptável a diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis e desktops.

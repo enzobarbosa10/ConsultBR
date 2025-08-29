@@ -1,0 +1,108 @@
+Monivo
+
+1. Missão da Marca
+"Ajudar pessoas comuns a evoluírem financeiramente com organização, consciência e autonomia."
+
+Você quer levar clareza e estrutura para quem vive perdido com dinheiro. E a Monivo vai ser esse guia prático e confiável.
+
+2. Slogan Inicial (opções)
+"Monivo — Evolua sua vida financeira."
+
+
+3. Bio para Instagram
+
+Plataforma para organizar sua vida financeira.
+Evolua sua relação com o dinheiro.
+#Monivo
+
+4. Identidade Visual Conceitual (Rascunho)
+
+
+Direção Criativa para o Estilo Visual da Monivo: "Descomplicar o Invisível"
+Este documento detalha a direção criativa para o estilo visual da Monivo, com o objetivo de fornecer uma compreensão clara e unificada para o desenvolvimento. A intenção é criar uma identidade visual que seja ousada, minimalista e emocional, comunicando os sentimentos de progresso, liberdade e clareza, e transcendendo a mera representação do dinheiro.
+
+1. Conceito Central Visual: “Descomplicar o Invisível”
+A Monivo tem como propósito ajudar a enxergar e entender o que antes era percebido como "bagunça" financeira. Visualmente, isso se traduz em trazer luz, equilíbrio e direção para a vida financeira do usuário. Este conceito será representado através de:
+
+Formas orgânicas sutis.
+
+Camadas sobrepostas (para a ideia de profundidade e desvendamento).
+
+Tipografia fluida e elegante.
+
+Contrastes sofisticados.
+
+2. Estilo Visual Escolhido: Minimalismo Profundo + Movimento
+A direção visual principal para a Monivo é o Minimalismo Profundo + Movimento. Este estilo foi escolhido por sua capacidade de transmitir sofisticação, tecnologia e uma sensação de modernidade, alinhando-se perfeitamente com a promessa de inovação e clareza da Monivo.
+
+Características Principais:
+
+Fundo Escuro: A base visual será predominantemente em preto ou azul petróleo (#34495E). Este fundo cria uma atmosfera de profundidade, confiança e modernidade, servindo como um canvas elegante que realça os elementos em primeiro plano.
+
+Tipografia Clara e Destaque: A tipografia será clara, legível e com alto contraste em relação ao fundo escuro. O nome "Monivo" terá um destaque especial, mantendo a simplicidade tipográfica como crucial para a clareza.
+
+Animações Suaves: Elementos visuais em movimento serão incorporados de forma sutil, principalmente através de linhas que se movem e se cruzam. Isso adiciona dinamismo e fluidez, sem sobrecarregar a experiência ou distrair o usuário.
+
+Transmite Sofisticação e Tecnologia: A combinação desses elementos resultará em uma estética que evoca a sensação de produtos e serviços de alta qualidade e inovação, similar a marcas como Apple, Notion e Linear, que priorizam a funcionalidade e a estética limpa.
+
+3. Paleta de Cores
+A paleta de cores foi cuidadosamente selecionada para complementar o estilo e os valores da marca, criando um equilíbrio visual elegante:
+
+Azul Petróleo (#34495E)
+
+Significado: Confiança, foco, tecnologia.
+
+Uso: Cor primária para fundos, cabeçalhos, e elementos principais da interface. É a cor que estabelece a atmosfera sofisticada e tecnológica da Monivo.
+
+Verde-Esmeralda (#2ECC71)
+
+Significado: Crescimento, dinheiro, saúde, progresso.
+
+Uso: Cor de destaque (accent color). Será utilizada de forma pontual para indicadores de progresso, gráficos de crescimento, botões de ação (CTAs), e elementos que precisam chamar a atenção positivamente.
+
+Branco/Off-white (#F8F9F9)
+
+Significado: Clareza, simplicidade, luz.
+
+Uso: Principalmente para tipografia, ícones e elementos que exigem alto contraste e legibilidade em fundos escuros. Essencial para reforçar a ideia de "descomplicar" e trazer "luz" para as finanças.
+
+4. Tipografia
+As fontes escolhidas reforçam a clareza e a sofisticação, garantindo excelente legibilidade em fundos escuros e transmitindo a personalidade da marca:
+
+Para Títulos e Destaques: Inter
+
+Características: Uma fonte sans-serif moderna, projetada e otimizada para telas. Possui uma vasta gama de pesos, o que permite flexibilidade e uma hierarquia visual clara e dinâmica. Sua estética limpa, funcional e precisa confere um toque de contemporaneidade e profissionalismo.
+
+Sensação: Moderna, precisa, funcional, profissional.
+
+Para Corpo de Texto: Open Sans
+
+Características: Uma das fontes mais reconhecidas e confiáveis para leitura em tela. Sua estrutura aberta e espaçamento generoso minimizam a fadiga visual, garantindo que mesmo longos blocos de texto sobre finanças sejam confortáveis de ler. É neutra, mas profissional.
+
+Sensação: Confiável, legível, neutra, acessível.
+
+5. Elementos Gráficos e Animações: Linhas que se Movem e se Cruzam
+Este é um dos pilares para expressar o "movimento", "fluxo" e "progresso" da Monivo, adicionando dinamismo de forma elegante e não intrusiva.
+
+Estilo e Comportamento das Linhas:
+
+Finas e Delicadas: As linhas serão sutis, quase como filamentos de luz, para manter o minimalismo e a sofisticação.
+
+Movimento Suave e Orgânico: A animação será lenta e fluida, lembrando um fluxo contínuo de energia ou informação. O objetivo é transmitir dinamismo sem causar ansiedade ou distração.
+
+Interseções Elegantes: Quando as linhas se cruzarem, o efeito será discreto, talvez com um brilho sutil, uma mudança momentânea de cor ou uma transparência que permita a visualização de uma linha através da outra, sem criar ruído visual.
+
+Cores e Transparência: Predominantemente em branco/off-white para alto contraste, com toques pontuais de verde-esmeralda para indicar progresso ou conexões importantes. A transparência será utilizada para criar profundidade e camadas.
+
+Aplicações Estratégicas:
+
+Fundos Animados (Sutileza é a chave): Pequenas e sutis animações de linhas movendo-se lentamente no fundo de seções principais (ex: header/hero section, tela inicial do aplicativo) para criar uma atmosfera de modernidade e sofisticação sem distrair do conteúdo principal.
+
+Transições e Carregamentos: As linhas podem ser usadas em animações de transição entre telas ou seções, ou como loaders personalizados, simbolizando o fluxo de dados e a organização do "invisível".
+
+Visualização de Dados Simplificada: Em gráficos e representações de progresso, as linhas podem ter uma fluidez orgânica (em vez de rigidez) para representar o avanço ao longo do tempo ou as conexões entre diferentes elementos financeiros.
+
+Elementos de Interação (Hover States): Animações sutis de linhas podem emergir ou envolver elementos interativos (como botões ou cards) ao passar o mouse, indicando interatividade de forma elegante.
+
+Conclusão
+Esta direção visual busca criar uma experiência que é não apenas funcional e clara, mas também emocionalmente envolvente e inspiradora. O desafio no desenvolvimento será manter o equilíbrio entre a sofisticação do minimalismo e o dinamismo do movimento, garantindo que a marca Monivo seja memorável, confiável e transmita a essência de "descomplicar o invisível" em cada interação.
